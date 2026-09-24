@@ -1,0 +1,45 @@
+# Advanced Random Password Generator
+
+## Project Description
+
+This project is an Advanced Random Password Generator developed using Python. It provides a graphical user interface (GUI) that allows users to generate strong and secure random passwords based on their selected requirements.
+
+## Features
+
+- Choose password length (minimum 8 characters)
+- Include uppercase letters
+- Include lowercase letters
+- Include numbers
+- Include symbols
+- Option to exclude ambiguous characters such as `0`, `O`, `l`, and `1`
+- Secure password generation using Python's `secrets` module
+- Password strength indicator:
+  - Weak
+  - Medium
+  - Strong
+- Automatically copies the generated password to the clipboard
+- Manual "Copy to Clipboard" button
+- Generate multiple passwords without restarting the application
+- Stores the last 5 generated passwords in the session history
+- Input validation for invalid password lengths and character selections
+
+## Technologies Used
+
+- Python
+- Tkinter
+- secrets
+- string
+- pyperclip
+
+## How to Run
+
+### Step 1: Install Python
+
+Make sure Python is installed on your computer.
+
+### Step 2: Install pyperclip
+
+Open Command Prompt or Terminal and run:
+
+```bash
+pip install pyperclip
